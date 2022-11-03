@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+	<title>Student ID System</title>
+</head>
+<body>
+
+
+	<div class="container">
+		<header><h2>STUDENT ID SYSTEM</h1></header>
+
+		<form action="#">
+			<div class="form first"></div>
+				<div class="details personal">
+					<span class="title"><b>Personal Details</b></span>
+
+					<div class="fields">
+						<div class="input-field">
+							<label>Full name</label>
+								<input type="textarea" name="Fullname" placeholder="Enter your name" required></div>
+							
+						<div class="input-field">
+							<label>Date of Birth</label>
+								<input type="date" name="birthdate" placeholder="Enter Birth Date" required></div>
+							
+						<div class="input-field">
+							<label>Email</label>
+								<input type="textarea" name="email" placeholder="Enter your Email" required>
+							</div>
+							<div class="input-field">
+							<label>Mobile Number</label>
+								<input type="textarea" name="mobilenumber" maxlength="11" placeholder="Enter your mobile number" required></div>
+							
+								<div class="input-field">
+									<label class="gend">Gender</label>
+										<select class="gender" >
+										  <option disabled selected value placeholder="Select an option" >Select an option</option>
+										  <option value="M">Male</option>
+										  <option value="F">Female</option>
+										  <option value="">Other</option>
+									
+										</select>
+
+								</div>
+						<div class="input-field">
+							<label>Address</label>
+								<input type="textarea" name="Country" placeholder="Enter address" required></div>
+						</div>
+						</div>
+
+						<div class="details ID">
+					<span class="title"><b>Student Details</b></span>
+
+					<div class="fields">
+						<div class="input-field">
+							<label>ID number</label>
+								<input type="textarea" name="idnumber" maxlength="11" placeholder="ID number with dash" required></div>
+
+						<div class="input-field">
+							<label class="course">Courses</label>
+								<select class="choices" >
+								  <option disabled selected value placeholder="Select an option" >Select an option</option>
+								  <option value="cs">Computer Science</option>
+								  <option value="IT">Information Technology</option>
+								  <option value="ERP">ERP</option>
+								  <option value="DA">Data Analytics</option>
+								  <option value="CE">Computer Engineering</option>
+								</select>
+
+
+							</div>
+						<div class="input-field">
+							<label>Zip code</label>
+								<input type="text" name="zip" maxlength="5" placeholder="Enter code" required>
+							</div>
+							<div class="input-field">
+						     		 <p class="gg">Leave us a message/suggestions<b>(Optional)</b></p>
+
+								    <textarea id="comments" class="input-textarea" name="comment" placeholder="Write something..." ></textarea>
+						    </div>
+						</div>
+					</div>
+									<button class="nextBtn">
+										<span class="btnText">Submit</span>
+										<i class="uil uil-navigator"></i>
+
+									</button>
+				</div>
+		</form>
+	</div>
+
+</body>
+</html>
